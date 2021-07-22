@@ -1,0 +1,36 @@
+.logo {
+	position: relative;
+	width: 272px;
+	height: 92px;
+}
+
+.logo--toggle {
+	.logo__pic--second {
+		opacity: 1;
+		z-index: 1;
+	}
+
+	.logo__pic--first {
+		opacity: 0;
+		z-index: 0;
+	}
+}
+
+.logo__pic {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	transition: opacity $anim;
+}
+
+.logo__pic--first {
+	z-index: 1;
+}
+
+.logo__pic--second {
+	opacity: 0;
+	z-index: 0;
+}

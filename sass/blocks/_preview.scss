@@ -1,0 +1,45 @@
+.preview {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+}
+
+.preview__content {
+	width: 100%;
+	max-width: 593px;
+	padding: 16px;
+}
+
+.preview__form {
+	margin-bottom: 20px;
+}
+
+.preview__logo {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.preview__input {
+	margin-bottom: 29px;
+}
+
+.preview__btns {
+	display: flex;
+	justify-content: center;
+}
+
+.preview__btn-item:not(:last-child) {
+	margin-right: 8px;
+}
+
+.preview__lang {
+	display: block;
+	width: 100%;
+	line-height: 2.1;
+	text-align: center;
+	color: #3c4043;
+	font-size: 13px;
+}

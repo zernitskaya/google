@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<section class="preview">
+		<h1 class="visually-hidden">Google search</h1>
+		<div class="preview__content">
+			<div class="preview__logo">
+				<a class="logo js-toggle-logo-link" href="#">
+					<img class="logo__pic logo__pic--first" src="img/logo.svg" width="300" height="100" alt="Google">
+					<img class="logo__pic logo__pic--second" src="img/logo2.svg" width="300" height="100" alt="Google">
+				</a>
+			</div>
+
+			<form class="preview__form">
+				<div class="preview__input">
+					<div class="search-input">
+						<label class="search-input__label">
+							<span class="search-input__search-ico  icon-search"></span>
+							<input class="search-input__input" type="text">
+						</label>
+
+						<button class="search-input__keyboard" type="button" title="Экранная клавиатура">
+							<span class="search-input__ico-keyboard icon-keyboard"></span>
+						</button>
+
+						<button class="search-input__microphone" type="button" title="Голосовой поиск">
+							<span class="search-input__ico-microphone icon-microphone"></span>
+						</button>
+					</div>
+				</div>
+
+				<div class="preview__btns">
+					<div class="preview__btn-item">
+						<button class="submit" type="submit">Поиск в Google</button>
+					</div>
+
+					<div class="preview__btn-item">
+						<button class="submit js-toggle-logo-btn" type="button">Мне повезёт!</button>
+					</div>
+				</div>
+			</form>
+
+			<small class="preview__lang">
+				Сервисы Google доступны на разных языках:<a class="link" href="#"> українська</a>
+			</small>
+		</div>
+	</section>
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>

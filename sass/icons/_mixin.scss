@@ -1,0 +1,14 @@
+@mixin icons($component, $icons) {
+    @each $name, $type in $icons {
+        .icon-#{$name} {
+            background-image: url('../img/icons/#{$component}/#{$name}.#{$type}');
+        }
+    }
+}
+
+[class*='icon-'] {
+    display: block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
